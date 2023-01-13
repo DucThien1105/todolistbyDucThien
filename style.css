@@ -13,18 +13,14 @@
 .container {
     position: absolute;
     width: 30%;
-    min-height: 200px;
     top: 50%;
     left: 50%;
-    background: darksalmon;
-    border-radius: 20px;
     transform: translate(-50%,-50%);
 }
 
 .input {
     position: relative;
-    top: 130px;
-    left: 30px; 
+    top: 50px;
 }
 
 .input input {
@@ -32,7 +28,7 @@
     padding: 20px;
     border: 2px solid black;
     border-radius: 10px;
-    width: 70%;
+    width: 75%;
     font-size: medium;
 }
 
@@ -44,16 +40,24 @@
 .input button {
     position: relative;
     padding: 20px;
-    border: 2px ;
+    /* border: 2px ; */
     border-radius: 10px;
     cursor: pointer;
     color: aqua;
     background-color: black;
     font-size: medium;
+    float: right;
+    width: 20%;
 }
 
 /* === OUTPUT === */
-
+.removeItemBtn {
+    float: right;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    opacity: 1;
+  }
 
 
 
